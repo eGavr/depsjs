@@ -1,0 +1,25 @@
+{
+  "name": "depsjs",
+  "version": "0.0.0",
+  "description": "Operations with deps.js entities",
+  "author": "Evgeniy Gavryushin <job.egavr@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eGavr/depsjs.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "jscs": "^2.6.0",
+    "jshint": "^2.9.1-rc1",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "lint": "jshint . && jscs .",
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha test/"
+  }
+}
