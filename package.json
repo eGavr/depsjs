@@ -1,6 +1,6 @@
 {
   "name": "depsjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Operations with deps.js entities",
   "author": "Evgeniy Gavryushin <job.egavr@yandex.ru>",
   "repository": {
